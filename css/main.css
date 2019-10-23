@@ -1,0 +1,97 @@
+/* General Style*/
+
+body {
+    font-family: 'Roboto Mono',
+        monospace;
+    color: #222;
+}
+
+section {
+    padding: 100px 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 700;
+}
+
+a {
+    color: inherit
+}
+
+.flexbox {
+    display: flex;
+}
+
+.flexbox.space-between {
+    justify-content: space-between;
+}
+
+.grey-section {
+    background-color: #f8f8f8;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* NAV STYLE */
+
+.menu {
+    padding: 20px;
+    background-color: transparent;
+    background: white url("../img/download.svg") no-repeat center / cover;
+
+}
+
+.menu nav ul {
+    list-style-type: none;
+}
+
+.nav-links li {
+    padding: 0 20px;
+    color: white;
+}
+
+/* HERO */
+
+.hero {
+    padding: 100px 0;
+    color: white;
+    text-align: center;
+}
+
+/* ASIDE */
+
+aside {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(171, 174, 183);
+    border-top: 1px solid rgb(171, 174, 183);
+}
+
+aside p {
+    opacity: 0.3;
+    font-size: 0.8em;
+}
+
+.grey {
+    filter: grayscale(100%);
+
+}
+
+.grey img {
+    width: 120px;
+}
+
+/* Key facts */
+
+.number {
+    font-size: 4em;
+}
+
+.letter {
+    text-transform: uppercase;
+}
